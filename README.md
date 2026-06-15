@@ -71,8 +71,11 @@ Train/test split (80/20), `StandardScaler` on feature matrix, then:
 | 5 | Decision Tree Regressor |
 | 6 | Random Forest Regressor |
 | 7 | Gradient Boosting Regressor |
+| 8 | **Hyperparameter tuning** — `GridSearchCV` on Random Forest (5-fold CV) |
 
 Each model includes test metrics plus **actual vs. predicted** and **residual** plots.
+
+**Hyperparameter tuning (Section 3.8):** `GridSearchCV` searches `n_estimators`, `max_depth`, `min_samples_split`, and `min_samples_leaf` for Random Forest. The tuned model replaces the default RF in the final benchmark, with a before/after comparison chart.
 
 ### Section 4 — Comprehensive benchmark
 Side-by-side comparison table and bar charts for **MAE**, **MSE**, **RMSE**, and **R²** across all models, with a short analytical interpretation.
