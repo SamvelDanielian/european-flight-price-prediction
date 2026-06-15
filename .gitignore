@@ -1,0 +1,41 @@
+# Assignment deliverables: README.md, flight_pricing_analysis.ipynb, europe_flights_google_prices.csv
+# Everything below is excluded from git.
+
+# Jupyter auto-save checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.py
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets, logs, temp scripts
+.env
+.env.*
+*.log
+*.tmp
+_x.py
